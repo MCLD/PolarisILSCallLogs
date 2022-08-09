@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParseLogs", "ParseLogs\ParseLogs.csproj", "{05E52FD0-FA95-497F-BD1D-762BD6B6F7AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolarisCallLog", "PolarisCallLogParser\PolarisCallLog.csproj", "{D822CDE3-06EB-4D6F-86D8-033060D8A4E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92004921-CB65-4716-910B-59A23E8824A2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05E52FD0-FA95-497F-BD1D-762BD6B6F7AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05E52FD0-FA95-497F-BD1D-762BD6B6F7AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05E52FD0-FA95-497F-BD1D-762BD6B6F7AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05E52FD0-FA95-497F-BD1D-762BD6B6F7AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D822CDE3-06EB-4D6F-86D8-033060D8A4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D822CDE3-06EB-4D6F-86D8-033060D8A4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D822CDE3-06EB-4D6F-86D8-033060D8A4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D822CDE3-06EB-4D6F-86D8-033060D8A4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9BC6FE6-074D-40C7-ADA8-B867317D61E7}
+	EndGlobalSection
+EndGlobal
